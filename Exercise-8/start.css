@@ -1,0 +1,42 @@
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#yellow {
+    order: 1;
+    align-items: center;
+    flex: 0 1 200px;
+}
+
+#red {
+    order: 2;
+    align-items: center;
+    flex: 0 1 200px;
+}
+
+#green {
+    order: 3;
+    align-items: center;
+    flex: 0 1 100px;
+}
+
+#orange {
+    order: 4;
+    flex: 0 0 300px;
+}
+
+#blue {
+    order: 5;
+    align-items: center;
+    flex: 0 1 100px;
+}
